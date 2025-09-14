@@ -39,7 +39,7 @@ export function AlternativeOptions({ alternatives }: AlternativeOptionsProps) {
                 <Badge variant="secondary">{crop.confidence}% confidence</Badge>
               </div>
               <img
-                src={crop.image || "/placeholder.svg"}
+                src={crop.image || "/wheat.png"}
                 alt={crop.name}
                 className="w-16 h-16 object-cover rounded-lg"
               />
